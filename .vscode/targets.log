@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2014 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul  4 17:24:08 2022
+# Make data base, printed on Tue Jul  5 18:09:43 2022
 
 # Variables
 
@@ -143,7 +141,7 @@ LOGNAME = xwave
 # environment
 QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -167,7 +165,7 @@ SHLVL = 1
 # environment
 IM_CONFIG_PHASE = 1
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-f9731ab3-54ab-4585-8d1d-0fa5be221447.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-96a34645-dae2-4db7-b7d7-b78c7efcc527.sock
 # environment
 COMPIZ_CONFIG_PROFILE = ubuntu
 # environment
@@ -255,9 +253,9 @@ VSCODE_PID = 37747
 
 # Directories
 
-# . (device 2049, inode 792115): 20 files, no impossibilities.
+# . (device 2049, inode 792115): 21 files, no impossibilities.
 
-# 20 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -281,6 +279,8 @@ all:
 
 .PHONY: clean
  
+make: *** No rule to make target 'all'.  Stop.
+
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -366,12 +366,12 @@ socket_client.c:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 289 B / avg = 10 B
-# current buf: size = 8162 B / used = 289 B / count = 27 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 288 B / avg = 10 B
+# current buf: size = 8162 B / used = 288 B / count = 28 / avg = 10 B
 
-# strcache performance: lookups = 52 / hit rate = 48%
+# strcache performance: lookups = 53 / hit rate = 47%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=1/52=2%
-# Finished Make data base on Mon Jul  4 17:24:08 2022
+# Load=28/8192=0%, Rehash=0, Collisions=1/53=2%
+# Finished Make data base on Tue Jul  5 18:09:43 2022
 
  

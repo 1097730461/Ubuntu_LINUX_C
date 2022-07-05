@@ -1,5 +1,9 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/xwave/LINUX_C/LINUX_proj'
-make: 'main' is up to date.
+gcc -c main.c -o main.o          
+gcc -c procces.c -o procces.o
+gcc -c socket_server.c -o socket_server.o
+gcc -c socket_client.c -o socket_client.o
+gcc main.o procces.o socket_server.o socket_client.o -o main        
 make: Leaving directory '/home/xwave/LINUX_C/LINUX_proj'
  
