@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/xwave/LINUX_C/LINUX_proj'
+make: 'main' is up to date.
+make: Leaving directory '/home/xwave/LINUX_C/LINUX_proj'
+ 
